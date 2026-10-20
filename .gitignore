@@ -1,0 +1,23 @@
+# Secrets: the real database password lives here. Never commit it. (Commit config.properties.example instead.)
+config.properties
+
+# Build output (run.bat and IntelliJ regenerate it)
+out/
+*.class
+
+# IDE settings (they contain machine-specific paths, e.g. the MySQL connector jar location)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS and archive junk
+.DS_Store
+Thumbs.db
+__MACOSX/
+*.zip
+
+# Logs
+*.log
